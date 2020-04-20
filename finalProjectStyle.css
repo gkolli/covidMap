@@ -1,7 +1,7 @@
       body {
            margin: 0;
-           display: flex;
            justify-content: center;
+           display: flex;
            background-color: #fdfd96 /* pastel yellow as the background color for the body (except the map) */
        }
 

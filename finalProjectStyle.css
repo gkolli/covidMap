@@ -1,0 +1,98 @@
+      body {
+           margin: 0;
+           display: flex;
+           justify-content: center;
+           background-color: #fdfd96 /* pastel yellow as the background color for the body (except the map) */
+       }
+
+       h1 {
+
+             text-align: center;
+             display: block;
+             font-family: Arial, Helvetica, sans-serif;
+             font-style: italic;
+
+       }
+
+       h3 {
+
+         text-align: center;
+         display: block;
+         font-family: Arial, Helvetica, sans-serif;
+         font-style: italic;
+
+       }
+
+       h2 {
+           text-align: center;
+           display: block;
+           font-family: Arial, Helvetica, sans-serif;
+           text-decoration: underline;
+
+       }
+
+
+       svg {
+           background-color:powderblue;
+           box-shadow: 8px 8px 4px grey;
+
+       }
+
+
+       .america {
+             stroke: white; /* so the outlines of the nation can be clearly seen */
+             stroke-width: 7;
+             fill: none;
+
+              }
+
+        .state {
+                stroke: white; /* so the outlines of the nation can be clearly seen */
+                stroke-width: 7;
+                fill: none;
+
+                     }
+
+
+      .county {
+              stroke: gray; /* so the outlines of the counties can be clearly seen */
+              fill: none;
+                 }
+
+
+
+
+       div.tooltip { /*tooltip is the element that pops up when some a county is hovered over.
+                     in this visualization, the tooltip states the number of cases from the county. */
+
+           font-size: 12px;
+           border-bottom: 1px dashed black;
+           position: absolute;
+           top: 280px; /* for setting the location of the tooltip on the screen */
+
+           text-align: center;
+           border-radius: 3px;
+           background: powderblue; /* light blue background for the map */
+
+       }
+
+
+
+       p {
+         font-style: italic;
+         font-family: Arial, Helvetica, sans-serif;
+         text-align: center;
+
+
+       }
+
+       a {
+         font-style: italic;
+         font-family: Arial, Helvetica, sans-serif;
+         text-align: center;
+
+       }
+
+       input {
+           width: 100%; /* so the slider input bar fits across the width of the screen */
+       }

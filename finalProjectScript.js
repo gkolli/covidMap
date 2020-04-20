@@ -37,8 +37,8 @@ d3.csv(covidDataSet).then(covidCase => { //using csv method as that is how the d
 
   //the following for loop enabled creation of the dateArray using the covidDataSet
   //without it, there would be undefined dates
-    for( let i = 11; i < covidCase.columns.length; i++) { //the 11th i value is the first usable date for this map.
-        dateArray.push(covidCase.columns[i]);
+    for( let x = 11; x < covidCase.columns.length; x++) { //the 11th i value is the first usable date for this map.
+        dateArray.push(covidCase.columns[x]);
     }
 
     //the following line of code found the max, or last, date array value

@@ -1,14 +1,7 @@
 # covidMap
 view at: https://gkolli.github.io/covidMap/
 
-A simple web-app that visualizes county COVID-19 cases over time, across the USA 
+This is a simple web-app that visualizes COVID-19 cases in every county across the USA, over time. The data is pulled from the Johns Hopkins Center for Systems Science and Engineering 2019-nCoV Data Repository. This site was built using HTML, CSS, and JavaScript, with the D3 and topoJSON libraries, and it was my final project for a data visualization course. 
 
-My final data visualization project, using HTML, CSS, and JavaScript (with D3 and topoJSON libraries). 
 
-dataset from Johns Hopkins' Center for Systems Science and Engineering
-
-Naren Kolli
-April 20, 2020
-Northeastern University
-
-For More Info, please contact me at kolli.na@northeastern.edu 
+ 

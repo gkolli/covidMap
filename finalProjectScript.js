@@ -89,7 +89,7 @@ d3.csv(covidDataSet).then(covidCase => { //using csv method as that is how the d
       //the following line is using the scale property to form a heat map with a rainbow interpolation,purple
       //being 0 cases, and red being for the county with the highest count.
 
-      mapColor = d3.scaleSequentialSymlog(d3.interpolateRainbow).domain([0, largestCaseValue]); //Symlog used to better portray the spread of the virus
+      mapColor = d3.scaleSequentialSymlog(d3.interpolateReds).domain([0, largestCaseValue]); //Symlog used to better portray the spread of the virus
       //the following blocks of code are used to create the map of the USA, which is then presented to the user. It was adapted from a tutorial on D3 visualizations
 
       viewMap.append("path") //creating outline for the United States country as a whole. Nothing is filled in, as that is taken care of by the counties' fill (below)
